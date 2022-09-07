@@ -19,12 +19,7 @@ function App() {
 					<p>
 						El mejor estilo para su hogar!!!
 					</p>
-					<a
-						className="App-link"
-						href="https://reactjs.org"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
+					<a className="App-link" href="#" target="_blank" rel="noopener noreferrer">
 						Llamar Ahora.
 					</a>
 				</div>
@@ -70,7 +65,7 @@ function App() {
 						<div className='home-offers'>
 							<h2>Productos en promoción</h2>
 
-							<p>Cada quincena presentamos nuevos productos a los mejores precios.
+							<p>Presentamos nuevos productos a los mejores precios.
 								<br />
 								¡Écheles un vistazo!</p>
 
