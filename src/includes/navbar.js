@@ -13,11 +13,11 @@ function Navbar() {
                     </div>
                     <div class="menu-select">
                         <ul>
-                            <li><a href='#'>Home</a></li>
-                            <li><a href='#'>Acerca de</a></li>
-                            <li><a href='#'>Contacto</a></li>
-                            <li><a href='#'>Blog</a></li>
-                            <li><a href='#'>Creditos</a></li>
+                            <li><a href='/../App'>Home</a></li>
+                            <li><a href='/pages/acercade'>Acerca De</a></li>
+                            <li><a href='/pages/contacto'>Contacto</a></li>
+                            <li><a href='/pages/blog'>Blog</a></li>
+                            <li><a href='/pages/creditos'>Creditos</a></li>
                         </ul>
                     </div>
                 </div>

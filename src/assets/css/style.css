@@ -169,10 +169,14 @@ hr {
 }
 
 .offers-slider {
-    box-shadow: 3px 3px 15px var(--Tumblr);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 20px;
     width: 30%;
     background: var(--White);
+}
+
+.offers-slider:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
 }
 
 .offers-slider img {

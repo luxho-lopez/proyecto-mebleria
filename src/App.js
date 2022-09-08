@@ -3,6 +3,12 @@ import ImgSlider2 from './assets/productos/02.png'
 import ImgSlider3 from './assets/productos/03.png'
 import Narbar from './includes/navbar.js'
 import Footer from './includes/footer'
+import Home from './App'
+import AcercaDe from './includes/pages/acercade'
+import Blog from './includes/pages/blog'
+import Contacto from './includes/pages/contacto'
+import Creditos from './includes/pages/creditos'
+import {Routes, Route} from 'react-router-dom'
 import './App.css';
 
 function App() {
@@ -10,6 +16,14 @@ function App() {
 		<div className="App">
 
 			<Narbar />
+
+			<Routes>
+				<Route path='/../App' element={ <Home/> } />
+				<Route path='/pages/acercade' element={ <AcercaDe/> } />
+				<Route path='/pages/blog' element={ <Blog/> } />
+				<Route path='/pages/contacto' element={ <Contacto/> } />
+				<Route path='/pages/creditos' element={ <Creditos/> } />
+			</Routes>
 
 			<header className="App-header">
 				{/* <img src={logo} className="App-logo" alt="logo" /> */}
